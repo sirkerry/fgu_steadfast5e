@@ -175,7 +175,7 @@ end
 -- ── Location System integration ───────────────────────────────────────────────
 
 local function getLocationOverride(sKey)
-	local LS = _G["S5E_LocationSystem"];
+	local LS = S5E_LocationSystem;
 	if LS and LS.isActive and LS.isActive() and LS.getOverride then
 		return LS.getOverride(sKey);
 	end
@@ -270,7 +270,7 @@ local function getCheckMod(rActor)
 	local nMod = math.floor((nConScore - 10) / 2);
 
 	-- If Expanded Skills is loaded, add Endurance proficiency bonus if proficient
-	if _G["ExpandedSkillsManager"] then
+	if ExpandedSkillsManager then
 		for _, nodeSkill in ipairs(DB.getChildList(nodeActor, "skilllist")) do
 			if DB.getValue(nodeSkill, "name", "") == "Endurance" then
 				local nProf     = DB.getValue(nodeSkill, "prof", 0);
