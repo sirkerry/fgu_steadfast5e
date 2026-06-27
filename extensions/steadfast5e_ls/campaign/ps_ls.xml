@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<windowclass name="ps_s5e_ls">
+		<sheetdata>
+			<anchor_content_top />
+
+			<header_content_framed_headersimple name="header_tier">
+				<static textres="ls_header_ps" />
+			</header_content_framed_headersimple>
+
+			<label_content_column name="lbl_tier">
+				<static textres="ls_label_tier_input" />
+			</label_content_column>
+			<string_content_columnh name="s5e_tier" />
+
+			<label_content_column name="lbl_hint">
+				<static textres="ls_label_tier_hint" />
+			</label_content_column>
+		</sheetdata>
+	</windowclass>
+</root>

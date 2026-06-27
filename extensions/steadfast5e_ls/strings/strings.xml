@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<!-- Option group header -->
+	<string name="option_header_ls">Steadfast5e - Location System</string>
+
+	<!-- Party sheet tab label -->
+	<string name="tab_s5e_ls">Location</string>
+
+	<!-- Party sheet tab content strings -->
+	<string name="ls_header_ps">Active Location Tier</string>
+	<string name="ls_label_tier_input">Tier:</string>
+	<string name="ls_label_tier_hint">urban / rural / wilderness / dungeon  (blank = inactive)</string>
+
+	<!-- Location record field label -->
+	<string name="ls_label_loc_tier">Steadfast5e Tier:</string>
+
+	<!-- ── Option labels ── -->
+
+	<!-- Urban (LS 1) -->
+	<string name="option_label_LS_URB_DC">LS 1: Urban - HD Recovery Save DC</string>
+	<string name="option_label_LS_URB_PASS">LS 1: Urban - HD Recovery Save: Pass</string>
+	<string name="option_label_LS_URB_FAIL">LS 1: Urban - HD Recovery Save: Fail</string>
+	<string name="option_label_LS_URB_HP">LS 1: Urban - Long Rest HP Recovery</string>
+
+	<!-- Rural (LS 2) -->
+	<string name="option_label_LS_RUR_DC">LS 2: Rural - HD Recovery Save DC</string>
+	<string name="option_label_LS_RUR_PASS">LS 2: Rural - HD Recovery Save: Pass</string>
+	<string name="option_label_LS_RUR_FAIL">LS 2: Rural - HD Recovery Save: Fail</string>
+	<string name="option_label_LS_RUR_HP">LS 2: Rural - Long Rest HP Recovery</string>
+
+	<!-- Wilderness (LS 3) -->
+	<string name="option_label_LS_WILD_DC">LS 3: Wilderness - HD Recovery Save DC</string>
+	<string name="option_label_LS_WILD_PASS">LS 3: Wilderness - HD Recovery Save: Pass</string>
+	<string name="option_label_LS_WILD_FAIL">LS 3: Wilderness - HD Recovery Save: Fail</string>
+	<string name="option_label_LS_WILD_HP">LS 3: Wilderness - Long Rest HP Recovery</string>
+
+	<!-- Dungeon (LS 4) -->
+	<string name="option_label_LS_DNG_DC">LS 4: Dungeon - HD Recovery Save DC</string>
+	<string name="option_label_LS_DNG_PASS">LS 4: Dungeon - HD Recovery Save: Pass</string>
+	<string name="option_label_LS_DNG_FAIL">LS 4: Dungeon - HD Recovery Save: Fail</string>
+	<string name="option_label_LS_DNG_HP">LS 4: Dungeon - Long Rest HP Recovery</string>
+
+	<!-- ── Option values: DC ── -->
+	<string name="option_val_LS_DC_dc10">DC 10</string>
+	<string name="option_val_LS_DC_dc12">DC 12</string>
+	<string name="option_val_LS_DC_dc15">DC 15</string>
+	<string name="option_val_LS_DC_dc20">DC 20</string>
+	<string name="option_val_LS_DC_none">Defer (GRR)</string>
+
+	<!-- ── Option values: HD fraction (shared by Pass and Fail options) ── -->
+	<string name="option_val_LS_HD_full">Full HD</string>
+	<string name="option_val_LS_HD_half">Half HD</string>
+	<string name="option_val_LS_HD_quarter">Quarter HD</string>
+	<string name="option_val_LS_HD_zero">No HD</string>
+	<string name="option_val_LS_HD_none">Defer (GRR)</string>
+
+	<!-- ── Option values: HP recovery ── -->
+	<string name="option_val_LS_HP_full">Full (RAW)</string>
+	<string name="option_val_LS_HP_threequarters">Three-Quarters</string>
+	<string name="option_val_LS_HP_half">Half</string>
+	<string name="option_val_LS_HP_quarter">Quarter</string>
+	<string name="option_val_LS_HP_none">Defer (GRR)</string>
+</root>

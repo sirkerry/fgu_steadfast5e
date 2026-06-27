@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<!-- Append Steadfast5e Tier field to the Location record sheet -->
+	<windowclass name="location_main">
+		<sheetdata merge="add">
+			<label_content_column name="s5e_tier_label">
+				<static textres="ls_label_loc_tier" />
+			</label_content_column>
+			<string_content_columnh name="s5e_tier" />
+		</sheetdata>
+	</windowclass>
+</root>

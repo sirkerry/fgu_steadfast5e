@@ -176,8 +176,8 @@ end
 
 local function getLocationOverride(sKey)
 	local LS = S5E_LocationSystem;
-	if LS and LS.isActive and LS.isActive() and LS.getOverride then
-		return LS.getOverride(sKey);
+	if LS and LS.isActive and LS.isActive() and LS.getTierValue then
+		return LS.getTierValue(sKey);
 	end
 	return nil;
 end
@@ -341,10 +341,10 @@ local function applyLongRestHD(rActor, tHDStateBefore)
 	local nTotal = nDie + nMod;
 	local bPass = (nTotal >= nDC);
 
-	local sPassResult = getLocationOverride("hd_pass_result")
+	local sPassResult = getLocationOverride("hd_check_pass")
 	                 or OptionsManager.getOption(OPT_HD_PASS)
 	                 or HD_PASS_DEFAULT;
-	local sFailResult = getLocationOverride("hd_fail_result")
+	local sFailResult = getLocationOverride("hd_check_fail")
 	                 or OptionsManager.getOption(OPT_HD_FAIL)
 	                 or HD_FAIL_DEFAULT;
 
