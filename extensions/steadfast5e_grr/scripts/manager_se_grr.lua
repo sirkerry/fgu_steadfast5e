@@ -262,25 +262,16 @@ local function getCheckDC()
 	return 15; -- dc15 default
 end
 
--- ── CON / Endurance check modifier ───────────────────────────────────────────
+-- ── CON save modifier ────────────────────────────────────────────────────────
 
-local function getCheckMod(rActor)
+local function getSaveMod(rActor)
 	local nodeActor = ActorManager.getCreatureNode(rActor);
 	local nConScore = DB.getValue(nodeActor, "abilities.constitution.score", 10);
 	local nMod = math.floor((nConScore - 10) / 2);
-
-	-- If Expanded Skills is loaded, add Endurance proficiency bonus if proficient
-	if ExpandedSkillsManager then
-		for _, nodeSkill in ipairs(DB.getChildList(nodeActor, "skilllist")) do
-			if DB.getValue(nodeSkill, "name", "") == "Endurance" then
-				local nProf     = DB.getValue(nodeSkill, "prof", 0);
-				local nProfBonus = DB.getValue(nodeActor, "profbonus", 2);
-				nMod = nMod + math.floor(nProf * nProfBonus);
-				break;
-			end
-		end
+	if DB.getValue(nodeActor, "abilities.constitution.saveprof", 0) == 1 then
+		nMod = nMod + DB.getValue(nodeActor, "profbonus", 2);
 	end
-
+	nMod = nMod + DB.getValue(nodeActor, "abilities.constitution.savemodifier", 0);
 	return nMod;
 end
 
@@ -345,7 +336,7 @@ local function applyLongRestHD(rActor, tHDStateBefore)
 
 	-- Roll CON (or Endurance) check
 	local nDC  = getLocationOverride("hd_check_dc") or getCheckDC();
-	local nMod = getCheckMod(rActor);
+	local nMod = getSaveMod(rActor);
 	local nDie = math.random(1, 20);
 	local nTotal = nDie + nMod;
 	local bPass = (nTotal >= nDC);

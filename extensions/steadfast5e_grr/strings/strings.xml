@@ -16,21 +16,21 @@
 	<string name="option_val_GRR_LONG_DUR_gritty7">7 Days</string>
 
 	<!-- Hit Dice -->
-	<string name="option_label_GRR_HD_CHECK">GRR: Long Rest HD Recovery Check</string>
+	<string name="option_label_GRR_HD_CHECK">GRR: Long Rest HD Recovery Save</string>
 	<string name="option_val_GRR_HD_CHECK_on">Enabled</string>
 
-	<string name="option_label_GRR_HD_DC">GRR: HD Recovery Check DC</string>
+	<string name="option_label_GRR_HD_DC">GRR: HD Recovery Save DC</string>
 	<string name="option_val_GRR_HD_DC_dc10">DC 10</string>
 	<string name="option_val_GRR_HD_DC_dc15">DC 15</string>
 	<string name="option_val_GRR_HD_DC_dc20">DC 20</string>
 	<string name="option_val_GRR_HD_DC_manual">Manual</string>
 
-	<string name="option_label_GRR_HD_PASS">GRR: HD Recovery Check: Pass</string>
+	<string name="option_label_GRR_HD_PASS">GRR: HD Recovery Save: Pass</string>
 	<string name="option_val_GRR_HD_PASS_full">Full HD</string>
 	<string name="option_val_GRR_HD_PASS_half">Half HD</string>
 	<string name="option_val_GRR_HD_PASS_quarter">Quarter HD</string>
 
-	<string name="option_label_GRR_HD_FAIL">GRR: HD Recovery Check: Fail</string>
+	<string name="option_label_GRR_HD_FAIL">GRR: HD Recovery Save: Fail</string>
 	<string name="option_val_GRR_HD_FAIL_half">Half HD</string>
 	<string name="option_val_GRR_HD_FAIL_quarter">Quarter HD</string>
 	<string name="option_val_GRR_HD_FAIL_zero">No HD</string>
@@ -48,7 +48,7 @@
 	<string name="option_label_GRR_SCOPE_MON">GRR: Apply to Monsters</string>
 
 	<!-- Chat messages -->
-	<string name="grr_msg_hd_check">GRR: %s HD Recovery: d20%s = %d vs DC %d [%s] -> recover %d of %d HD</string>
-	<string name="grr_msg_hd_check_skip">GRR: %s HD Recovery: check skipped (no HD used)</string>
+	<string name="grr_msg_hd_check">GRR: %s CON Save: d20%s = %d vs DC %d [%s] -> recover %d of %d HD</string>
+	<string name="grr_msg_hd_check_skip">GRR: %s HD Recovery: skipped (no HD used)</string>
 	<string name="grr_msg_hp_recovery">GRR: %s HP Recovery: restored %d of %d HP (%s)</string>
 </root>
