@@ -2,5 +2,4 @@
 <root version="4.1">
 	<script name="S5E_LocationSystem" file="scripts/manager_se_ls.lua" />
 	<includefile source="campaign/ps_ls.xml" />
-	<includefile source="campaign/record_location_ls.xml" />
 </root>
