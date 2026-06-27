@@ -48,7 +48,7 @@
 	<string name="option_label_GRR_SCOPE_MON">GRR: Apply to Monsters</string>
 
 	<!-- Chat messages -->
-	<string name="grr_msg_hd_check">GRR — %s HD Recovery: d20%s = %d vs DC %d [%s] → recover %d of %d HD</string>
-	<string name="grr_msg_hd_check_skip">GRR — %s HD Recovery: check skipped (no HD used)</string>
-	<string name="grr_msg_hp_recovery">GRR — %s HP Recovery: restored %d of %d HP (%s)</string>
+	<string name="grr_msg_hd_check">GRR: %s HD Recovery: d20%s = %d vs DC %d [%s] -> recover %d of %d HD</string>
+	<string name="grr_msg_hd_check_skip">GRR: %s HD Recovery: check skipped (no HD used)</string>
+	<string name="grr_msg_hp_recovery">GRR: %s HP Recovery: restored %d of %d HP (%s)</string>
 </root>
