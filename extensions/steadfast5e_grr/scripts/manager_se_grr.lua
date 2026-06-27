@@ -321,8 +321,15 @@ local function applyLongRestHD(rActor, tHDStateBefore)
 		return;  -- check disabled; keep FGU's default HD recovery
 	end
 
+	-- nHDUsed must come from the pre-rest snapshot; _fnOrigOnActorRest already
+	-- zeroed hdused on the node by the time we get here.
+	local nHDUsed = 0;
+	for _, nUsed in pairs(tHDStateBefore) do
+		nHDUsed = nHDUsed + nUsed;
+	end
+
 	local nodeChar = ActorManager.getCreatureNode(rActor);
-	local nHDUsed, nHDTotal = CharManager.getClassHDUsage(nodeChar);
+	local _, nHDTotal = CharManager.getClassHDUsage(nodeChar);
 
 	if nHDUsed == 0 then
 		ChatManager.Message(
