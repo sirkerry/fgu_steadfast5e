@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="768" height="768" viewBox="0 0 768 768" role="img" xmlns="http://www.w3.org/2000/svg">
   <title>Steadfast 5E Gritty Realism Rest icon</title>
-  <desc>A heraldic shield in dark steel with a crossed sword and quill and Steadfast5E branding</desc>
+  <desc>A heraldic shield in dark steel with a bed and Steadfast5E branding</desc>
   <style>
     .shield-body { fill: #2a2d35; stroke: #c9a84c; stroke-width: 6; }
     .shield-inner { fill: none; stroke: #c9a84c; stroke-width: 3; opacity: 0.5; }
@@ -22,20 +22,28 @@
     <circle class="rivet" cx="238" cy="42" r="9"/>
     <circle class="rivet" cx="0" cy="285" r="9"/>
 
-    <!-- Quill UNDER sword (drawn first, rotated +35deg) -->
-    <g transform="translate(0,20) rotate(35)" fill="#e8c96a" stroke="#e8c96a" opacity="0.9">
-      <line x1="0" y1="-160" x2="0" y2="80" stroke="#e8c96a" stroke-width="3"/>
-      <path d="M0,-160 Q-40,-120 -30,-60 Q-20,-20 0,20" fill="#c9a84c" stroke="none" opacity="0.85"/>
-      <path d="M0,-160 Q40,-120 30,-60 Q20,-20 0,20" fill="#c9a84c" stroke="none" opacity="0.85"/>
-      <polygon points="0,80 -6,50 6,50" fill="#e8c96a" stroke="none"/>
-    </g>
-
-    <!-- Sword ON TOP of quill (drawn second, rotated -35deg) -->
-    <g transform="translate(0,20) rotate(-35)" fill="#e8c96a" stroke="#e8c96a">
-      <polygon points="0,-190 8,-20 -8,-20" />
-      <rect x="-38" y="-24" width="76" height="10" rx="3"/>
-      <rect x="-7" y="-14" width="14" height="60" rx="3"/>
-      <ellipse cx="0" cy="52" rx="14" ry="10"/>
+    <!-- Bed -->
+    <g transform="translate(0,15) rotate(-4)">
+      <g fill="#e8c96a" stroke="#e8c96a">
+        <!-- legs -->
+        <rect x="-80" y="40" width="10" height="18" rx="2"/>
+        <rect x="70" y="40" width="10" height="18" rx="2"/>
+        <!-- frame base -->
+        <rect x="-88" y="22" width="176" height="18" rx="4"/>
+        <!-- headboard -->
+        <rect x="-98" y="-60" width="20" height="82" rx="6"/>
+        <!-- mattress -->
+        <rect x="-80" y="-8" width="168" height="30" rx="10" stroke="none"/>
+        <!-- pillow -->
+        <rect x="-72" y="-22" width="44" height="22" rx="10" fill="#2a2d35" opacity="0.3" stroke="none"/>
+        <!-- blanket fold creases -->
+        <line x1="-15" y1="-8" x2="-15" y2="22" stroke="#2a2d35" stroke-width="3" opacity="0.4"/>
+        <line x1="40" y1="-8" x2="40" y2="22" stroke="#2a2d35" stroke-width="2" opacity="0.3"/>
+      </g>
+      <!-- sleep marks -->
+      <text x="-70" y="-68" font-family="serif" font-size="24" fill="#e8c96a" opacity="0.9">z</text>
+      <text x="-50" y="-94" font-family="serif" font-size="18" fill="#e8c96a" opacity="0.75">z</text>
+      <text x="-35" y="-112" font-family="serif" font-size="13" fill="#e8c96a" opacity="0.6">z</text>
     </g>
 
     <!-- Text -->
