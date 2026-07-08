@@ -1,5 +1,7 @@
 # Steadfast5e - Location System
 
+![Steadfast5e - Location System](forge/steadfast5e_ls.svg)
+
 **FG Forge Listing:** not yet published
 
 Part of the [Steadfast5e](https://forge.fantasygrounds.com/) suite for grittier, OSR-style 5E play.
