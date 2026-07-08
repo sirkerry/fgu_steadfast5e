@@ -1,6 +1,6 @@
 # Steadfast5e - Location System
 
-![Steadfast5e - Location System](forge/steadfast5e_ls.svg)
+![Steadfast5e - Location System](forge/steadfast5e_ls.png)
 
 **FG Forge Listing:** not yet published
 
