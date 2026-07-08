@@ -1,5 +1,7 @@
 # Steadfast5e - Gritty Realism Rest
 
+![Steadfast5e - Gritty Realism Rest](forge/steadfast5e_grr.png)
+
 **FG Forge Listing:** not yet published
 
 Part of the [Steadfast5e](https://forge.fantasygrounds.com/) suite for grittier, OSR-style 5E play.
