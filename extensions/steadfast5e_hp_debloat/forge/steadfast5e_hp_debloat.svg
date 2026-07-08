@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="768" height="768" viewBox="0 0 768 768" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Steadfast 5E HP Debloat icon</title>
+  <desc>A heraldic shield in dark steel with a heart and downward arrow and Steadfast5E branding</desc>
+  <style>
+    .shield-body { fill: #2a2d35; stroke: #c9a84c; stroke-width: 6; }
+    .shield-inner { fill: none; stroke: #c9a84c; stroke-width: 3; opacity: 0.5; }
+    .sub-text { font-family: serif; font-weight: 400; fill: #a08030; }
+    .rivet { fill: #c9a84c; }
+  </style>
+  <g transform="translate(384, 384)">
+    <!-- Shield -->
+    <path class="shield-body" d="M0,-300 L225,-228 L255,42 Q255,210 0,300 Q-255,210 -255,42 L-225,-228 Z"/>
+    <path class="shield-inner" d="M0,-264 L192,-198 L219,36 Q219,180 0,264 Q-219,180 -219,36 L-192,-198 Z"/>
+    <line x1="-219" y1="-30" x2="219" y2="-30" stroke="#c9a84c" stroke-width="2" opacity="0.4"/>
+
+    <!-- Rivets -->
+    <circle class="rivet" cx="0" cy="-285" r="9"/>
+    <circle class="rivet" cx="-200" cy="-218" r="9"/>
+    <circle class="rivet" cx="200" cy="-218" r="9"/>
+    <circle class="rivet" cx="-238" cy="42" r="9"/>
+    <circle class="rivet" cx="238" cy="42" r="9"/>
+    <circle class="rivet" cx="0" cy="285" r="9"/>
+
+    <!-- Heart -->
+    <path d="M0,90 Q-90,-10 -90,-60 Q-90,-130 -30,-130 Q0,-130 0,-90 Q0,-130 30,-130 Q90,-130 90,-60 Q90,-10 0,90 Z"
+          fill="#e8c96a" stroke="#e8c96a" stroke-width="2" transform="translate(0, 30)"/>
+
+    <!-- Downward arrow overlaid on heart -->
+    <g fill="#2a2d35" stroke="#2a2d35">
+      <rect x="-10" y="-80" width="20" height="110" rx="4" transform="translate(0,30)"/>
+      <polygon points="0,80 -32,40 32,40" transform="translate(0,30)"/>
+    </g>
+
+    <!-- Text -->
+    <text class="sub-text" x="0" y="-155" font-size="30" text-anchor="middle" letter-spacing="6">Steadfast5e</text>
+    <text class="sub-text" x="0" y="170" font-size="24" text-anchor="middle" letter-spacing="4">HP DEBLOAT</text>
+  </g>
+</svg>

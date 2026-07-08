@@ -1,5 +1,9 @@
 # Steadfast5e - Proficiency Bonus Cap +4
 
+![Steadfast5e - Proficiency Bonus Cap +4](forge/steadfast5e_prof_cap.png)
+
+**[FG Forge Listing](https://forge.fantasygrounds.com/shop/items/3417/view)**
+
 Part of the [Steadfast5e](https://forge.fantasygrounds.com/) suite for grittier, OSR-style 5E play.
 
 ## What it does

@@ -1,5 +1,9 @@
 # Steadfast5e — Expanded Skills
 
+![Steadfast5e - Expanded Skills](forge/steadfast5e_expanded_skills.png)
+
+**[FG Forge Listing](https://forge.fantasygrounds.com/shop/items/3422/view)** — companion reference module: **[Steadfast5e - Expanded Skills Reference](https://forge.fantasygrounds.com/shop/items/3424/view)**
+
 Part of the **Steadfast5e** suite of Fantasy Grounds Unity extensions for grittier, more grounded 5E play.
 
 Replaces the standard 18 5E skills with **26 flat skills** that give every ability score a broader role, tighten scope boundaries between similar skills, and eliminate the passive-feel redundancy of the original list.

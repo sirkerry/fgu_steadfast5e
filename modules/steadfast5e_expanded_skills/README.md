@@ -1,5 +1,7 @@
 # Steadfast5e — Expanded Skills (Reference Module)
 
+**[FG Forge Listing](https://forge.fantasygrounds.com/shop/items/3424/view)**
+
 Companion reference module for the **Steadfast5e Expanded Skills** extension. Provides library entries for all 26 skills in the Steadfast5e skill system, visible to both GM and players once activated.
 
 ---

@@ -1,5 +1,9 @@
 # Steadfast5e - HP Debloat
 
+![Steadfast5e - HP Debloat](forge/steadfast5e_hp_debloat.png)
+
+**[FG Forge Listing](https://forge.fantasygrounds.com/shop/items/3421/view)**
+
 Part of the [Steadfast5e](https://forge.fantasygrounds.com/) suite for grittier, OSR-style 5E play.
 
 ## What it does

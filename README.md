@@ -8,16 +8,22 @@ Published on the [FG Forge](https://forge.fantasygrounds.com) by Kerry Harrison 
 
 ## Extensions
 
-### [Steadfast5e — Expanded Skills](extensions/steadfast5e_expanded_skills/)
+### [Steadfast5e — Expanded Skills](extensions/steadfast5e_expanded_skills/) — [Forge listing](https://forge.fantasygrounds.com/shop/items/3422/view)
 Replaces the standard 18 5E skills with 26 flat skills. Every ability score gets a broader role, scope boundaries between adjacent skills are tightened, and passive-feel redundancy is eliminated. Old proficiencies migrate automatically.
 
-Includes a companion reference module (`modules/steadfast5e_expanded_skills/`) with descriptions, scope boundaries, example uses, and GM guidance for all 26 skills.
+Includes a companion reference module (`modules/steadfast5e_expanded_skills/`) with descriptions, scope boundaries, example uses, and GM guidance for all 26 skills — [Forge listing](https://forge.fantasygrounds.com/shop/items/3424/view).
 
-### [Steadfast5e — HP Debloat](extensions/steadfast5e_hp_debloat/)
+### [Steadfast5e — HP Debloat](extensions/steadfast5e_hp_debloat/) — [Forge listing](https://forge.fantasygrounds.com/shop/items/3421/view)
 Compresses PC and NPC hit points for grittier, more lethal play. Level 1: max hit die + CON modifier. Each level beyond 1st: max hit die / 2, no additional CON.
 
-### [Steadfast5e — Proficiency Bonus Cap +4](extensions/steadfast5e_prof_cap/)
+### [Steadfast5e — Proficiency Bonus Cap +4](extensions/steadfast5e_prof_cap/) — [Forge listing](https://forge.fantasygrounds.com/shop/items/3417/view)
 Slower proficiency bonus progression: +2 (levels 1–6), +3 (7–12), +4 (13+). Designed for low-fantasy, OSR-style 5E play.
+
+### [Steadfast5e — Gritty Realism Rest](extensions/steadfast5e_grr/) — not yet published
+Overhauls rest and recovery for meaningful attrition: configurable rest durations, limited HD spending, optional CON/Endurance check for HD recovery, fractional HP recovery, per-creature-type scope controls.
+
+### [Steadfast5e — Location System](extensions/steadfast5e_ls/) — not yet published
+Tier-based location tagging (Urban/Rural/Wilderness/Dungeon) that exposes per-tier rest/recovery overrides to other Steadfast5e extensions.
 
 ---
 
