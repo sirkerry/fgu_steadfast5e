@@ -25,6 +25,9 @@ Overhauls rest and recovery for meaningful attrition: configurable rest duration
 ### [Steadfast5e — Location System](extensions/steadfast5e_ls/) — not yet published
 Tier-based location tagging (Urban/Rural/Wilderness/Dungeon) that exposes per-tier rest/recovery overrides to other Steadfast5e extensions.
 
+### [Steadfast5e — Exploding Damage](extensions/steadfast5e_expdmg/) — not yet published
+Classic exploding-dice house rule for all damage rolls (weapons and spells): a die that rolls its maximum value rerolls and adds, chaining on further explosions, using FGU's native compound-explode die mode.
+
 ---
 
 ## Compatibility
