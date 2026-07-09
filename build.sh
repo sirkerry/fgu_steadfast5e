@@ -13,7 +13,7 @@ if [ -d "$REPO/extensions" ]; then
         name=$(basename "$dir")
         echo "  $name.ext"
         (cd "$dir" && zip -rq "$DIST/$name.ext" . \
-            --exclude "README.md" --exclude "*.zip" --exclude "*.ext" --exclude "*.mod")
+            --exclude "README.md" --exclude "*.zip" --exclude "*.ext" --exclude "*.mod" --exclude "forge/*")
     done
 fi
 
