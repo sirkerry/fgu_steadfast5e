@@ -19,14 +19,17 @@ Compresses PC and NPC hit points for grittier, more lethal play. Level 1: max hi
 ### [Steadfast5e — Proficiency Bonus Cap +4](extensions/steadfast5e_prof_cap/) — [Forge listing](https://forge.fantasygrounds.com/shop/items/3417/view)
 Slower proficiency bonus progression: +2 (levels 1–6), +3 (7–12), +4 (13+). Designed for low-fantasy, OSR-style 5E play.
 
-### [Steadfast5e — Gritty Realism Rest](extensions/steadfast5e_grr/) — not yet published
+### [Steadfast5e — Gritty Realism Rest](extensions/steadfast5e_grr/) — [Forge listing](https://forge.fantasygrounds.com/shop/items/3440/view)
 Overhauls rest and recovery for meaningful attrition: configurable rest durations, limited HD spending, optional CON/Endurance check for HD recovery, fractional HP recovery, per-creature-type scope controls.
 
-### [Steadfast5e — Location System](extensions/steadfast5e_ls/) — not yet published
+### [Steadfast5e — Location System](extensions/steadfast5e_ls/) — [Forge listing](https://forge.fantasygrounds.com/shop/items/3441/view)
 Tier-based location tagging (Urban/Rural/Wilderness/Dungeon) that exposes per-tier rest/recovery overrides to other Steadfast5e extensions.
 
-### [Steadfast5e — Exploding Damage](extensions/steadfast5e_expdmg/) — not yet published
+### [Steadfast5e — Exploding Damage](extensions/steadfast5e_expdmg/) — [Forge listing](https://forge.fantasygrounds.com/shop/items/3444/view)
 Classic exploding-dice house rule for all damage rolls (weapons and spells): a die that rolls its maximum value rerolls and adds, chaining on further explosions, using FGU's native compound-explode die mode.
+
+### [Steadfast5e — Award Treasure XP](extensions/steadfast5e_goldxp/)
+The classic OSR "XP for gold" house rule. Run `/goldxp` to open a small tool, enter the GP value of treasure recovered and a ratio (1/2/5/10 GP per XP), and award the resulting XP evenly across the party — reuses the same `PartyXPManager.awardXP()` the stock Battle/Quest "Award" buttons call.
 
 ---
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<string name="goldxp_window_title">Award Treasure XP</string>
+	<string name="goldxp_label_gpamount">GP Amount</string>
+	<string name="goldxp_label_ratio">Ratio</string>
+	<string name="goldxp_ratio_1">1 GP = 1 XP</string>
+	<string name="goldxp_ratio_2">2 GP = 1 XP</string>
+	<string name="goldxp_ratio_5">5 GP = 1 XP</string>
+	<string name="goldxp_ratio_10">10 GP = 1 XP</string>
+	<string name="goldxp_button_award">Award to Party</string>
+</root>

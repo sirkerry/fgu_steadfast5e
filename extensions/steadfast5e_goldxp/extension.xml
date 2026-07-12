@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="4.1">
+	<properties>
+		<name>Feature: Steadfast5e - Award Treasure XP</name>
+		<version>1.0</version>
+		<author>Kerry Harrison (sirkerry)</author>
+		<description>Part of the Steadfast5e suite. Adds the classic OSR "XP for gold" house rule: run /goldxp to open a small tool, enter the GP value of treasure recovered and a ratio (1/2/5/10 GP per XP), and award the resulting XP evenly across the party -- reuses the same PartyXPManager.awardXP() the stock Battle/Quest "Award" buttons call.</description>
+		<ruleset><name>5E</name></ruleset>
+		<loadorder>14</loadorder>
+	</properties>
+	<base>
+		<includefile source="strings/strings.xml" />
+		<includefile source="goldxp.xml" />
+		<includefile source="loader.xml" />
+	</base>
+</root>

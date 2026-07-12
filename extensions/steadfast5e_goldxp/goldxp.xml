@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<windowclass name="goldxp">
+		<frame>utilitybox</frame>
+		<placement>
+			<nosave />
+		</placement>
+		<sizelimits>
+			<minimum width="320" height="180" />
+		</sizelimits>
+		<softclose />
+		<sheetdata>
+			<windowtitlebar_utilitybox name="title">
+				<resource>goldxp_window_title</resource>
+			</windowtitlebar_utilitybox>
+			<windowmenubar_utilitybox name="menubar" />
+
+			<anchor_content_utilitybox_top />
+			<anchor_content_utilitybox_bottom />
+
+			<label_content_column name="gpamount_label">
+				<anchored to="contentanchor" position="insidetopleft" offset="0,10" width="90" />
+				<static textres="goldxp_label_gpamount" />
+			</label_content_column>
+			<basicnumberc name="gpamount">
+				<anchored to="gpamount_label" position="right" offset="10,0" width="80" height="20" />
+				<min>0</min>
+			</basicnumberc>
+
+			<label_content_column name="ratio_label">
+				<anchored to="gpamount_label" position="below" offset="0,15" width="90" />
+				<static textres="goldxp_label_ratio" />
+			</label_content_column>
+			<button_stringcycler name="ratio">
+				<anchored to="ratio_label" position="right" offset="10,0" width="110" height="20" />
+				<parameters>
+					<defaultlabelres>goldxp_ratio_1</defaultlabelres>
+					<labelsres>goldxp_ratio_2|goldxp_ratio_5|goldxp_ratio_10</labelsres>
+					<values>2|5|10</values>
+				</parameters>
+			</button_stringcycler>
+
+			<button_text name="award">
+				<anchored to="ratio_label" position="below" offset="0,20" width="120" height="24" />
+				<state textres="goldxp_button_award" />
+				<script>
+					function onButtonPress()
+						GoldXPManager.awardFromWindow(window.getDatabaseNode());
+					end
+				</script>
+			</button_text>
+		</sheetdata>
+	</windowclass>
+</root>
