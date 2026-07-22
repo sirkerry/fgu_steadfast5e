@@ -24,9 +24,9 @@
 			<name type="string">Academics</name>
 			<stat type="string">Intelligence</stat>
 			<text type="formattedtext">
-				<p>Academics covers the humanistic disciplines — the accumulated written knowledge of civilizations. History, literature, law, philosophy, politics, languages, culture, art. If it was taught in a university or found in a library, and it is not magical theory, divine theology, or hard empirical science, it is Academics.</p>
+				<p>Academics covers the humanistic disciplines — the accumulated written knowledge of civilizations. History, literature, law, philosophy, political history, languages, culture, art. If it was taught in a university or found in a library, and it is not magical theory, divine theology, or hard empirical science, it is Academics.</p>
 				<h>Does Not Cover</h>
-				<p>Arcana (magical theory and identification), Religion (divine lore and theology), Occult (weird or fey knowledge), Science (hard sciences and formal engineering), Nature (biological knowledge of the natural world).</p>
+				<p>Arcana (magical theory and identification), Religion (divine lore and theology), Occult (weird or fey knowledge), Science (hard sciences and formal engineering), Nature (biological knowledge of the natural world), Streetwise (who actually holds power in a city today and how its factions operate right now — Academics knows how the current situation came to be, not what is happening in it this week).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Recall which noble house controls a contested border region and the history behind the claim.</li>
@@ -486,9 +486,9 @@
 			<name type="string">Streetwise</name>
 			<stat type="string">Charisma</stat>
 			<text type="formattedtext">
-				<p>Urban social navigation. Knowing who controls what territory in a city, working existing contacts and networks, knowing which doors to knock on and how, navigating factional relationships and city politics, black market knowledge, reading danger in urban environments, and understanding how city power actually functions beneath the official surface.</p>
+				<p>Urban social navigation. Knowing who controls what territory in a city right now, working existing contacts and networks, knowing which doors to knock on and how, navigating current factional relationships and city politics, black market knowledge, reading danger in urban environments, and understanding how city power actually functions beneath the official surface.</p>
 				<h>Does Not Cover</h>
-				<p>Guile (actively lying your way through urban interactions — Streetwise is knowing who to approach and how to open the door), Persuasion (honest influence with specific individuals), Investigation (looking for material evidence in an urban environment).</p>
+				<p>Guile (actively lying your way through urban interactions — Streetwise is knowing who to approach and how to open the door), Persuasion (honest influence with specific individuals), Investigation (looking for material evidence in an urban environment), Academics (the historical and legal record of how power got this way — Streetwise is about the present situation, not its origin).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Know which fence in this city will buy stolen temple goods without asking questions and without immediately informing on you.</li>
@@ -507,9 +507,9 @@
 			<name type="string">Survival</name>
 			<stat type="string">Wisdom</stat>
 			<text type="formattedtext">
-				<p>Finding and securing the basic necessities of life. Locating food and water, foraging, knowing what is safe to consume, improvising shelter, basic hunting and fishing. Applies in any environment — wilderness, urban, underdark, maritime. In Steadfast5e, Survival's scope is distinct from Tracking: Survival finds resources, Tracking follows quarry.</p>
+				<p>Finding and securing the basic necessities of life. Locating food and water, foraging, knowing what is safe to consume, building a shelter from whatever is available, basic hunting and fishing. Applies in any environment — wilderness, urban, underdark, maritime. In Steadfast5e, Survival's scope is distinct from Tracking and Wildcraft: Survival finds resources and builds with what's on hand once you've stopped, Tracking follows quarry, Wildcraft judges the route and the site.</p>
 				<h>Does Not Cover</h>
-				<p>Tracking (following a specific quarry — Survival finds food, Tracking finds the deer that made those prints), Wildcraft (navigating terrain and reading the land — Survival is about resources, not routes), Endurance (pushing through when you have not been able to secure resources).</p>
+				<p>Tracking (following a specific quarry — Survival finds food, Tracking finds the deer that made those prints), Wildcraft (judging where to make camp and reading the land to get there — Survival builds the shelter once a site is chosen, it does not choose the site), Endurance (pushing through when you have not been able to secure resources).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Find clean water sources in a swamp where the surface water is stagnant and unsafe.</li>
@@ -571,19 +571,19 @@
 			<name type="string">Wildcraft</name>
 			<stat type="string">Wisdom</stat>
 			<text type="formattedtext">
-				<p>Active wilderness skills. Navigating by landmarks and stars, reading terrain to find the best route, interpreting weather signs before conditions change, locating shelter, identifying environmental hazards before they become problems, crossing difficult natural terrain without loss. The WIS-based active counterpart to the INT-based passive knowledge of Nature. Replaces the active elements of the old Nature skill.</p>
+				<p>Active wilderness skills. Navigating by landmarks and stars, reading terrain to find the best route, interpreting weather signs before conditions change, judging where a campsite will be safe from the elements, identifying environmental hazards before they become problems, crossing difficult natural terrain without loss. The WIS-based active counterpart to the INT-based passive knowledge of Nature. Replaces the active elements of the old Nature skill.</p>
 				<h>Does Not Cover</h>
-				<p>Nature (academic or druidic knowledge of the natural world — what things are and why), Survival (finding food and water resources — Wildcraft handles getting there, Survival handles staying fed), Tracking (following a specific subject's passage), Beastcraft (working with animals encountered in the wilderness).</p>
+				<p>Nature (academic or druidic knowledge of the natural world — what things are and why), Survival (building the actual shelter and finding food and water once you've stopped — Wildcraft picks the route and the site, Survival does the rest), Tracking (following a specific subject's passage), Beastcraft (working with animals encountered in the wilderness).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Navigate through unmarked forest to reach the pass before the storm closes it.</li>
 					<li>Read terrain features to identify where the mountain route will ice over first and find the safer alternative.</li>
-					<li>Find shelter in a ravine that will block the wind without creating flood risk.</li>
+					<li>Identify a ravine that will block the wind without flood risk as a safe place to make camp.</li>
 					<li>Read sky and plant signs to know the weather is about to turn significantly worse.</li>
 					<li>Cross a marsh without losing anyone to hidden deep water.</li>
 				</list>
 				<h>GM Guidance</h>
-				<p>Wildcraft is the orienteering and environmental reading skill. When characters are trying to go somewhere through difficult terrain, navigate by natural signs, or read what the land is telling them about conditions ahead, this is the skill. Survival tells you what to eat once you are there; Wildcraft tells you how to get there.</p>
+				<p>Wildcraft is the orienteering and environmental reading skill. When characters are trying to go somewhere through difficult terrain, navigate by natural signs, or read what the land is telling them about conditions ahead, this is the skill. Survival tells you what to eat and how to build shelter once you are there; Wildcraft tells you how to get there and where to stop.</p>
 			</text>
 				</wildcraft>
 
