@@ -13,7 +13,8 @@ local SKILL_DEFAULTS = {
 	-- Standard 5E renames and removals
 	["animalhandling"]  = "Beastcraft",
 	["history"]         = "Academics",
-	["intimidation"]    = "Deception",
+	["intimidation"]    = "Coercion",
+	["deception"]       = "Guile",
 	["medicine"]        = "Healing",
 	["nature"]          = "Wildcraft",
 	["performance"]     = "Perform",
@@ -22,7 +23,6 @@ local SKILL_DEFAULTS = {
 	["acrobatics"]      = "Acrobatics",
 	["arcana"]          = "Arcana",
 	["athletics"]       = "Athletics",
-	["deception"]       = "Deception",
 	["insight"]         = "Insight",
 	["investigation"]   = "Investigation",
 	["perception"]      = "Perception",
@@ -33,9 +33,11 @@ local SKILL_DEFAULTS = {
 	-- New skill names (pass-through)
 	["academics"]   = "Academics",
 	["beastcraft"]  = "Beastcraft",
+	["coercion"]    = "Coercion",
 	["cooking"]     = "Cooking",
 	["crafting"]    = "Crafting",
 	["endurance"]   = "Endurance",
+	["guile"]       = "Guile",
 	["healing"]     = "Healing",
 	["herblore"]    = "Herblore",
 	["occult"]      = "Occult",
@@ -52,7 +54,8 @@ local SKILL_DEFAULTS = {
 local SKILL_OLD_SIMPLIFIED = {
 	["academics"]  = {"history"},
 	["beastcraft"] = {"animalhandling"},
-	["deception"]  = {"intimidation"},
+	["coercion"]   = {"intimidation"},
+	["guile"]      = {"deception"},
 	["healing"]    = {"medicine"},
 	["perform"]    = {"performance"},
 	["trickery"]   = {"sleightofhand"},
@@ -70,6 +73,7 @@ function onInit()
 	-- Update DataCommon.skilldata: remove old renamed/removed skills, add new ones.
 	if DataCommon and DataCommon.skilldata then
 		DataCommon.skilldata["Animal Handling"] = nil;
+		DataCommon.skilldata["Deception"]       = nil;
 		DataCommon.skilldata["History"]         = nil;
 		DataCommon.skilldata["Intimidation"]    = nil;
 		DataCommon.skilldata["Medicine"]        = nil;
@@ -80,9 +84,11 @@ function onInit()
 
 		DataCommon.skilldata["Academics"]  = { stat = "intelligence" };
 		DataCommon.skilldata["Beastcraft"] = { stat = "wisdom" };
+		DataCommon.skilldata["Coercion"]   = { stat = "strength" };
 		DataCommon.skilldata["Cooking"]    = { stat = "wisdom" };
 		DataCommon.skilldata["Crafting"]   = { stat = "intelligence" };
 		DataCommon.skilldata["Endurance"]  = { stat = "constitution" };
+		DataCommon.skilldata["Guile"]      = { stat = "charisma" };
 		DataCommon.skilldata["Healing"]    = { stat = "wisdom" };
 		DataCommon.skilldata["Herblore"]   = { stat = "wisdom" };
 		DataCommon.skilldata["Occult"]     = { stat = "wisdom" };
@@ -94,7 +100,7 @@ function onInit()
 		DataCommon.skilldata["Wildcraft"]  = { stat = "wisdom" };
 	end
 
-	-- Replace party sheet skill dropdown with all 26 flat skills.
+	-- Replace party sheet skill dropdown with all 27 flat skills.
 	if DataCommon then
 		DataCommon.psskilldata = {
 			"Academics",
@@ -102,10 +108,11 @@ function onInit()
 			"Arcana",
 			"Athletics",
 			"Beastcraft",
+			"Coercion",
 			"Cooking",
 			"Crafting",
-			"Deception",
 			"Endurance",
+			"Guile",
 			"Healing",
 			"Herblore",
 			"Insight",
@@ -130,8 +137,7 @@ function onInit()
 	-- Override 1: CharBuildManager.parseSkillsField
 	-- Translate old skill names to new names in the Character Wizard's
 	-- skill choice dropdowns (class, background, species features).
-	-- Deduplicates in case two old names map to the same new name
-	-- (e.g. both "Deception" and "Intimidation" → "Deception").
+	-- Deduplicates in case two old names map to the same new name.
 	-- ----------------------------------------------------------------
 	local _orig_parseSkillsField = CharBuildManager.parseSkillsField;
 	CharBuildManager.parseSkillsField = function(s, bSource2024)

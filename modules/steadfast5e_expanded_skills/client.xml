@@ -110,7 +110,7 @@
 			<text type="formattedtext">
 				<p>Forcing compliance through the threat of harm — physical intimidation, menace backed by presence or reputation, and the implicit promise that refusal has a cost. STR because credible intimidation rests on the target believing you can and will follow through, not on how convincingly you can act the part. Replaces Intimidation.</p>
 				<h>Does Not Cover</h>
-				<p>Deception (lies and manipulation without an implied threat of harm), Persuasion (honest appeals toward mutual benefit), Streetwise (reputation used to navigate a city's power structure rather than to directly compel someone).</p>
+				<p>Guile (lies and manipulation without an implied threat of harm), Persuasion (honest appeals toward mutual benefit), Streetwise (reputation used to navigate a city's power structure rather than to directly compel someone).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Loom over a captured scout until they give up the patrol schedule.</li>
@@ -120,7 +120,7 @@
 					<li>Convince a prisoner to talk by making the alternative unmistakably worse.</li>
 				</list>
 				<h>GM Guidance</h>
-				<p>Coercion works only when the threat is credible — a scrawny commoner making the same threat as a scarred mercenary should not get the same result regardless of skill investment; adjust the DC or impose disadvantage where the fiction makes the threat implausible. Unlike Deception, Coercion does not require a convincing performance, just a believable one.</p>
+				<p>Coercion works only when the threat is credible — a scrawny commoner making the same threat as a scarred mercenary should not get the same result regardless of skill investment; adjust the DC or impose disadvantage where the fiction makes the threat implausible. Unlike Guile, Coercion does not require a convincing performance, just a believable one.</p>
 			</text>
 				</coercion>
 
@@ -187,12 +187,12 @@
 			</text>
 				</crafting>
 
-				<deception>
+				<guile>
 			<locked type="number">1</locked>
-			<name type="string">Deception</name>
+			<name type="string">Guile</name>
 			<stat type="string">Charisma</stat>
 			<text type="formattedtext">
-				<p>Dishonest social influence. Lies, fabrications, manipulation, misdirection, and impersonation. CHA because a convincing lie depends on projecting a persona the target believes, not on any credible ability to back up a threat.</p>
+				<p>Dishonest social influence. Lies, fabrications, manipulation, misdirection, and impersonation. Renamed from Deception. CHA because a convincing lie depends on projecting a persona the target believes, not on any credible ability to back up a threat.</p>
 				<h>Does Not Cover</h>
 				<p>Coercion (compelling someone through a credible threat of harm — that is STR), Persuasion (honest positive influence — if genuinely trying to reach mutual benefit through truth and reason, that is Persuasion), Stealth (hiding your presence entirely), Perform (entertaining or creating a convincing artistic persona without deceptive intent).</p>
 				<h>Example Uses</h>
@@ -204,9 +204,9 @@
 					<li>Talk your way past a checkpoint using a name you have no right to.</li>
 				</list>
 				<h>GM Guidance</h>
-				<p>If the character is trying to control a social situation through untruth, it is Deception. Persuasion is for genuine appeals toward mutual benefit; Coercion is for backing a demand with a credible threat. Use intent as the guide: a bribe offered to genuinely help someone is Persuasion, the same bribe backed by a lie is Deception, and the same bribe backed by a threat is Coercion.</p>
+				<p>If the character is trying to control a social situation through untruth, it is Guile. Persuasion is for genuine appeals toward mutual benefit; Coercion is for backing a demand with a credible threat. Use intent as the guide: a bribe offered to genuinely help someone is Persuasion, the same bribe backed by a lie is Guile, and the same bribe backed by a threat is Coercion.</p>
 			</text>
-				</deception>
+				</guile>
 
 				<endurance>
 			<locked type="number">1</locked>
@@ -278,7 +278,7 @@
 			<text type="formattedtext">
 				<p>Reading people. Detecting lies, sensing hidden motives, understanding emotional states, recognizing when someone is under duress or performing a role they do not genuinely inhabit. Unchanged from standard 5E.</p>
 				<h>Does Not Cover</h>
-				<p>Perception (physical alertness to environmental threats — that is CON-based vigilance), Investigation (analyzing material evidence at a scene), Deception (active manipulation — Insight is the counter to Deception, not the same thing).</p>
+				<p>Perception (physical alertness to environmental threats — that is CON-based vigilance), Investigation (analyzing material evidence at a scene), Guile (active manipulation — Insight is the counter to Guile, not the same thing).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Sense that the innkeeper is afraid of someone before they say anything that indicates it.</li>
@@ -383,7 +383,7 @@
 			<text type="formattedtext">
 				<p>Entertaining, captivating, or moving an audience through music, theater, dance, oratory, or other performative arts. Renamed from Performance, unchanged in function. Creating a convincing artistic persona, executing craft under pressure, and reading what an audience needs.</p>
 				<h>Does Not Cover</h>
-				<p>Deception (using performance as the vehicle for a lie — when the performance IS the deception, it is Deception), Persuasion (social influence through direct honest appeal — Perform is about craft and audience engagement, not argument).</p>
+				<p>Guile (using performance as the vehicle for a lie — when the performance IS the guile, it is Guile), Persuasion (social influence through direct honest appeal — Perform is about craft and audience engagement, not argument).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Play well enough in a hostile tavern to earn a room for the night rather than being thrown out.</li>
@@ -393,7 +393,7 @@
 					<li>Dance formally at a noble's court without embarrassing the contact who vouched for your presence.</li>
 				</list>
 				<h>GM Guidance</h>
-				<p>Perform covers situations where the craft of performance itself is being tested. When a bard is using music to seduce, threaten, or deceive, that falls to Deception or Persuasion. When the quality and skill of the performance is what matters — and a bad roll means a bad performance — it is Perform.</p>
+				<p>Perform covers situations where the craft of performance itself is being tested. When a bard is using music to seduce or deceive, that falls to Guile or Persuasion. When the quality and skill of the performance is what matters — and a bad roll means a bad performance — it is Perform.</p>
 			</text>
 				</perform>
 
@@ -404,7 +404,7 @@
 			<text type="formattedtext">
 				<p>Honest positive social influence. Making genuine appeals, negotiating in good faith, diplomatic navigation, formal social situations, connecting with someone through reason or honest emotion. When the character is genuinely trying to reach a mutually beneficial outcome. Unchanged from standard 5E.</p>
 				<h>Does Not Cover</h>
-				<p>Deception (any dishonest or coercive social influence — if there is a lie or implied threat, it is Deception), Perform (performance for its own sake rather than as a means of honest social outcome), Streetwise (knowing who to approach and how to open the door — Persuasion handles what comes after).</p>
+				<p>Guile (dishonest social influence — if there is a lie, it is Guile), Coercion (compelling through a credible threat of harm — that is STR), Perform (performance for its own sake rather than as a means of honest social outcome), Streetwise (knowing who to approach and how to open the door — Persuasion handles what comes after).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Negotiate a reduced toll by appealing to the guard's civic pride and sense of fair dealing.</li>
@@ -467,7 +467,7 @@
 			<text type="formattedtext">
 				<p>Moving without being noticed. Hiding, moving quietly, concealing your presence from observers. The question Stealth answers is: did anyone see or hear you? Unchanged from standard 5E.</p>
 				<h>Does Not Cover</h>
-				<p>Deception (lying about what you were doing after the fact — Stealth is about not being observed in the first place), Acrobatics (graceful movement without the element of concealment), Trickery (hiding what your hands are doing while being observed, rather than hiding yourself).</p>
+				<p>Guile (lying about what you were doing after the fact — Stealth is about not being observed in the first place), Acrobatics (graceful movement without the element of concealment), Trickery (hiding what your hands are doing while being observed, rather than hiding yourself).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Slip past a guard post without triggering a challenge.</li>
@@ -488,7 +488,7 @@
 			<text type="formattedtext">
 				<p>Urban social navigation. Knowing who controls what territory in a city, working existing contacts and networks, knowing which doors to knock on and how, navigating factional relationships and city politics, black market knowledge, reading danger in urban environments, and understanding how city power actually functions beneath the official surface.</p>
 				<h>Does Not Cover</h>
-				<p>Deception (actively lying your way through urban interactions — Streetwise is knowing who to approach and how to open the door), Persuasion (honest influence with specific individuals), Investigation (looking for material evidence in an urban environment).</p>
+				<p>Guile (actively lying your way through urban interactions — Streetwise is knowing who to approach and how to open the door), Persuasion (honest influence with specific individuals), Investigation (looking for material evidence in an urban environment).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Know which fence in this city will buy stolen temple goods without asking questions and without immediately informing on you.</li>
@@ -551,7 +551,7 @@
 			<text type="formattedtext">
 				<p>Fast hands and fine motor deception. Picking pockets, lockpicking, sleight of hand with objects, forging physical documents and items, concealing objects on your person. Renamed from Sleight of Hand, unchanged in function.</p>
 				<h>Does Not Cover</h>
-				<p>Deception (the social lying and manipulation — Trickery is the physical act, Deception is the social performance that covers it), Stealth (hiding your entire presence — Trickery hides what your hands are doing while you are otherwise visible).</p>
+				<p>Guile (the social lying and manipulation — Trickery is the physical act, Guile is the social performance that covers it), Stealth (hiding your entire presence — Trickery hides what your hands are doing while you are otherwise visible).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Lift the keyring from the guard's belt during a casual-seeming conversation.</li>

@@ -35,7 +35,7 @@ local SKILLS = {
 	{ name = "Endurance",     stat = "constitution", legacy = {} },
 	{ name = "Perception",    stat = "constitution", legacy = {} },
 	-- CHA
-	{ name = "Deception",     stat = "charisma",     legacy = {} },
+	{ name = "Guile",         stat = "charisma",     legacy = { "Deception" } },
 	{ name = "Perform",       stat = "charisma",     legacy = { "Performance" } },
 	{ name = "Persuasion",    stat = "charisma",     legacy = {} },
 	{ name = "Streetwise",    stat = "charisma",     legacy = {} },

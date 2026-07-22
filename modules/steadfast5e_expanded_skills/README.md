@@ -35,7 +35,7 @@ Dexterity: Acrobatics, Stealth, Trickery
 Intelligence: Academics, Arcana, Crafting, Investigation, Nature, Religion, Science  
 Wisdom: Beastcraft, Cooking, Healing, Herblore, Insight, Occult, Survival, Tracking, Wildcraft  
 Constitution: Endurance, Perception  
-Charisma: Deception, Perform, Persuasion, Streetwise  
+Charisma: Guile, Perform, Persuasion, Streetwise  
 
 ---
 

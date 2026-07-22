@@ -37,7 +37,7 @@ Replaces the standard 18 5E skills with **27 flat skills** that give every abili
 | Wildcraft | WIS | Replaces active elements of old Nature |
 | Endurance | CON | New |
 | Perception | CON | Moved from WIS — passive perception uses CON |
-| Deception | CHA | Unchanged (Intimidation moved to Coercion) |
+| Guile | CHA | Renamed from Deception (Intimidation moved to Coercion) |
 | Perform | CHA | Renamed from Performance |
 | Persuasion | CHA | Unchanged |
 | Streetwise | CHA | New |
@@ -50,6 +50,7 @@ When the extension loads on an existing 5E campaign, it automatically:
 
 - Renames skill nodes on character sheets (old name → new name, proficiency carried over)
 - Renames Intimidation to Coercion (proficiency carried over) and rebases it to STR
+- Renames Deception to Guile (proficiency carried over)
 - Updates Perception's ability score from WIS to CON
 - Creates fresh nodes for the 9 new skills
 - Remaps old skill names in the Character Wizard dropdown
