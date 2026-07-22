@@ -549,7 +549,7 @@
 			<name type="string">Trickery</name>
 			<stat type="string">Dexterity</stat>
 			<text type="formattedtext">
-				<p>Fast hands and fine motor deception. Picking pockets, lockpicking, sleight of hand with objects, forging physical documents and items, concealing objects on your person. Renamed from Sleight of Hand, unchanged in function.</p>
+				<p>Fast hands and fine motor deception. Picking pockets, lockpicking, disarming trap mechanisms, sleight of hand with objects, forging physical documents and items, concealing objects on your person. Renamed from Sleight of Hand, unchanged in function.</p>
 				<h>Does Not Cover</h>
 				<p>Guile (the social lying and manipulation — Trickery is the physical act, Guile is the social performance that covers it), Stealth (hiding your entire presence — Trickery hides what your hands are doing while you are otherwise visible).</p>
 				<h>Example Uses</h>
@@ -559,6 +559,7 @@
 					<li>Palm a small object from the evidence table under the magistrate's direct line of sight.</li>
 					<li>Forge a travel document convincingly enough to pass a casual checkpoint inspection.</li>
 					<li>Conceal a blade in your boot that will not be found in a standard pat-down.</li>
+					<li>Disarm a trap's trigger mechanism before anyone gets close enough to set it off.</li>
 				</list>
 				<h>GM Guidance</h>
 				<p>Trickery requires some cover — a distraction, a crowd, a moment of inattention. Against an actively watching target, the difficulty rises sharply. When a character uses Trickery to forge something, treat the Trickery roll as the DC for the recipient's Investigation or Insight check.</p>
