@@ -1,13 +1,14 @@
 --
 -- Skill list manager for Steadfast5e - Expanded Skills.
 -- Replaces char_skilllist.lua on the "list" control inside
--- charsheet_skills_contents. Populates 26 flat skills and migrates
+-- charsheet_skills_contents. Populates 27 flat skills and migrates
 -- standard 5E skill entries (renamed/removed skills) on first open.
 --
 
 local SKILLS = {
 	-- STR
 	{ name = "Athletics",     stat = "strength",     legacy = {} },
+	{ name = "Coercion",      stat = "strength",     legacy = { "Intimidation" } },
 	-- DEX
 	{ name = "Acrobatics",    stat = "dexterity",    legacy = {} },
 	{ name = "Stealth",       stat = "dexterity",    legacy = {} },
@@ -34,7 +35,7 @@ local SKILLS = {
 	{ name = "Endurance",     stat = "constitution", legacy = {} },
 	{ name = "Perception",    stat = "constitution", legacy = {} },
 	-- CHA
-	{ name = "Deception",     stat = "charisma",     legacy = { "Intimidation" } },
+	{ name = "Deception",     stat = "charisma",     legacy = {} },
 	{ name = "Perform",       stat = "charisma",     legacy = { "Performance" } },
 	{ name = "Persuasion",    stat = "charisma",     legacy = {} },
 	{ name = "Streetwise",    stat = "charisma",     legacy = {} },

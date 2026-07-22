@@ -2,13 +2,13 @@
 
 **[FG Forge Listing](https://forge.fantasygrounds.com/shop/items/3424/view)**
 
-Companion reference module for the **Steadfast5e Expanded Skills** extension. Provides library entries for all 26 skills in the Steadfast5e skill system, visible to both GM and players once activated.
+Companion reference module for the **Steadfast5e Expanded Skills** extension. Provides library entries for all 27 skills in the Steadfast5e skill system, visible to both GM and players once activated.
 
 ---
 
 ## Contents
 
-Each of the 26 skill entries includes:
+Each of the 27 skill entries includes:
 
 - **Description** — what the skill covers and why it uses its ability score
 - **Does Not Cover** — explicit scope boundaries against adjacent skills
@@ -22,15 +22,15 @@ Each of the 26 skill entries includes:
 1. Place `steadfast5e_expanded_skills.mod` in your FGU `modules/` directory.
 2. Open a campaign with the **Steadfast5e Expanded Skills** extension loaded.
 3. Go to **Library → Modules** and activate **Steadfast5e Expanded Skills**.
-4. The 26 skill entries appear under the **Skills** section of the library.
+4. The 27 skill entries appear under the **Skills** section of the library.
 
 FGU saves the activation state per campaign — you only need to do this once.
 
 ---
 
-## The 26 Skills
+## The 27 Skills
 
-Strength: Athletics  
+Strength: Athletics, Coercion  
 Dexterity: Acrobatics, Stealth, Trickery  
 Intelligence: Academics, Arcana, Crafting, Investigation, Nature, Religion, Science  
 Wisdom: Beastcraft, Cooking, Healing, Herblore, Insight, Occult, Survival, Tracking, Wildcraft  

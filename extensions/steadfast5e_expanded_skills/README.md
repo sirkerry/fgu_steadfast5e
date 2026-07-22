@@ -6,15 +6,16 @@
 
 Part of the **Steadfast5e** suite of Fantasy Grounds Unity extensions for grittier, more grounded 5E play.
 
-Replaces the standard 18 5E skills with **26 flat skills** that give every ability score a broader role, tighten scope boundaries between similar skills, and eliminate the passive-feel redundancy of the original list.
+Replaces the standard 18 5E skills with **27 flat skills** that give every ability score a broader role, tighten scope boundaries between similar skills, and eliminate the passive-feel redundancy of the original list.
 
 ---
 
-## The 26 Skills
+## The 27 Skills
 
 | Skill | Ability | Notes |
 |---|---|---|
 | Athletics | STR | Unchanged |
+| Coercion | STR | Renamed from Intimidation |
 | Acrobatics | DEX | Unchanged |
 | Stealth | DEX | Unchanged |
 | Trickery | DEX | Renamed from Sleight of Hand |
@@ -36,7 +37,7 @@ Replaces the standard 18 5E skills with **26 flat skills** that give every abili
 | Wildcraft | WIS | Replaces active elements of old Nature |
 | Endurance | CON | New |
 | Perception | CON | Moved from WIS — passive perception uses CON |
-| Deception | CHA | Absorbs Intimidation |
+| Deception | CHA | Unchanged (Intimidation moved to Coercion) |
 | Perform | CHA | Renamed from Performance |
 | Persuasion | CHA | Unchanged |
 | Streetwise | CHA | New |
@@ -48,9 +49,9 @@ Replaces the standard 18 5E skills with **26 flat skills** that give every abili
 When the extension loads on an existing 5E campaign, it automatically:
 
 - Renames skill nodes on character sheets (old name → new name, proficiency carried over)
-- Absorbs Intimidation proficiency into Deception (takes the higher value)
+- Renames Intimidation to Coercion (proficiency carried over) and rebases it to STR
 - Updates Perception's ability score from WIS to CON
-- Creates fresh nodes for the 8 new skills
+- Creates fresh nodes for the 9 new skills
 - Remaps old skill names in the Character Wizard dropdown
 - Ensures `SKILL:` effects using old names still apply to their renamed equivalents
 
@@ -58,7 +59,7 @@ When the extension loads on an existing 5E campaign, it automatically:
 
 ## Companion Module
 
-Install **Steadfast5e Expanded Skills** (`steadfast5e_expanded_skills.mod`) alongside this extension. It provides GM and player reference entries for all 26 skills in the FGU library, including scope descriptions, boundaries, example uses, and GM guidance.
+Install **Steadfast5e Expanded Skills** (`steadfast5e_expanded_skills.mod`) alongside this extension. It provides GM and player reference entries for all 27 skills in the FGU library, including scope descriptions, boundaries, example uses, and GM guidance.
 
 Activate the module once per campaign from **Library → Modules**. FGU remembers the choice on all subsequent loads.
 

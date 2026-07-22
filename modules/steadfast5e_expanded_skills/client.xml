@@ -103,6 +103,27 @@
 			</text>
 				</athletics>
 
+				<coercion>
+			<locked type="number">1</locked>
+			<name type="string">Coercion</name>
+			<stat type="string">Strength</stat>
+			<text type="formattedtext">
+				<p>Forcing compliance through the threat of harm — physical intimidation, menace backed by presence or reputation, and the implicit promise that refusal has a cost. STR because credible intimidation rests on the target believing you can and will follow through, not on how convincingly you can act the part. Replaces Intimidation.</p>
+				<h>Does Not Cover</h>
+				<p>Deception (lies and manipulation without an implied threat of harm), Persuasion (honest appeals toward mutual benefit), Streetwise (reputation used to navigate a city's power structure rather than to directly compel someone).</p>
+				<h>Example Uses</h>
+				<list>
+					<li>Loom over a captured scout until they give up the patrol schedule.</li>
+					<li>Make it clear to a corrupt official that continued silence has a price they will not enjoy paying.</li>
+					<li>Stare down a tavern brawler until they back off rather than escalate.</li>
+					<li>Trade on a fearsome reputation to get a locked door opened without laying a hand on anyone.</li>
+					<li>Convince a prisoner to talk by making the alternative unmistakably worse.</li>
+				</list>
+				<h>GM Guidance</h>
+				<p>Coercion works only when the threat is credible — a scrawny commoner making the same threat as a scarred mercenary should not get the same result regardless of skill investment; adjust the DC or impose disadvantage where the fiction makes the threat implausible. Unlike Deception, Coercion does not require a convincing performance, just a believable one.</p>
+			</text>
+				</coercion>
+
 				<beastcraft>
 			<locked type="number">1</locked>
 			<name type="string">Beastcraft</name>
@@ -171,19 +192,19 @@
 			<name type="string">Deception</name>
 			<stat type="string">Charisma</stat>
 			<text type="formattedtext">
-				<p>All forms of dishonest or forceful social influence. Lies, fabrications, manipulation, misdirection, impersonation, threats, coercion, and intimidation. In Steadfast5e, Deception absorbs Intimidation entirely — there is no separate Intimidation skill. CHA because manipulation and intimidation both depend on projecting a convincing persona.</p>
+				<p>Dishonest social influence. Lies, fabrications, manipulation, misdirection, and impersonation. CHA because a convincing lie depends on projecting a persona the target believes, not on any credible ability to back up a threat.</p>
 				<h>Does Not Cover</h>
-				<p>Persuasion (honest positive influence — if genuinely trying to reach mutual benefit through truth and reason, that is Persuasion), Stealth (hiding your presence entirely), Perform (entertaining or creating a convincing artistic persona without deceptive intent).</p>
+				<p>Coercion (compelling someone through a credible threat of harm — that is STR), Persuasion (honest positive influence — if genuinely trying to reach mutual benefit through truth and reason, that is Persuasion), Stealth (hiding your presence entirely), Perform (entertaining or creating a convincing artistic persona without deceptive intent).</p>
 				<h>Example Uses</h>
 				<list>
 					<li>Convince a gate guard you are a city inspector who already cleared this checkpoint.</li>
-					<li>Threaten a merchant with implied violence until he reveals his supplier.</li>
+					<li>Forge a convincing cover story on the spot when the original alibi falls apart mid-conversation.</li>
 					<li>Impersonate a guild official convincingly enough to gain access to the records room.</li>
 					<li>Bluff your way through an interrogation when you know nothing useful.</li>
-					<li>Shake down a frightened informant without laying a hand on them.</li>
+					<li>Talk your way past a checkpoint using a name you have no right to.</li>
 				</list>
 				<h>GM Guidance</h>
-				<p>If the character is trying to control a social situation through untruth or force of personality backed by menace, it is Deception. Persuasion is for genuine appeals toward mutual benefit. Use intent as the guide: a bribe offered to genuinely help someone is Persuasion; the same bribe under implied threat is Deception.</p>
+				<p>If the character is trying to control a social situation through untruth, it is Deception. Persuasion is for genuine appeals toward mutual benefit; Coercion is for backing a demand with a credible threat. Use intent as the guide: a bribe offered to genuinely help someone is Persuasion, the same bribe backed by a lie is Deception, and the same bribe backed by a threat is Coercion.</p>
 			</text>
 				</deception>
 
